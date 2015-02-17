@@ -1,0 +1,29 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/core-ajax/core-ajax.html">
+<link rel="import" href="../profile-badge/profile-badge.html">
+
+<polymer-element name="profile-badge-list" attributes="url">
+  <template>
+    <link rel="stylesheet" href="profile-badge-list.css">
+    <core-ajax auto url="{{url}}" handleAs="json" on-core-response="{{handleResponse}}"></core-ajax>
+
+    <template repeat="{{platform in platforms}}">
+      <profile-badge url="{{platform.url}}" faClass="{{platform.faClass}}"></profile-badge>
+    </template>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        handleResponse: function (e) {
+          var _response = e.detail.response;
+
+          _response.forEach(function (r) {
+            r.faClass = r.faClass || r.name.toLowerCase();
+          })
+
+          this.platforms = _response;
+        }
+      });
+    })();
+  </script>
+</polymer-element>

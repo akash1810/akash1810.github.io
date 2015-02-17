@@ -1,0 +1,20 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/core-ajax/core-ajax.html">
+<link rel="import" href="../../../bower_components/mark-down/mark-down.html">
+
+<polymer-element name="mark-down-ajax" attributes="url">
+  <template>
+    <link rel="stylesheet" href="mark-down-ajax.css">
+    <core-ajax auto url="{{url}}" handleAs="text" on-core-response="{{handleResponse}}"></core-ajax>
+    <mark-down text="{{markdown}}"></mark-down>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        handleResponse: function (e) {
+          this.markdown = e.detail.response;
+        }
+      });
+    })();
+  </script>
+</polymer-element>

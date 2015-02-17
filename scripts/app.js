@@ -1,0 +1,1 @@
+!function(a){"use strict";var b=a.querySelector("#app");b.appName="Where its @akash1810",b.page="home",b.profileUrl="/profile.json"}(wrap(document));

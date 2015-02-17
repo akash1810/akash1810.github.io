@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM,CACJ,OAAO,CAAE,KAAK,CAGhB,aAAc,CACZ,OAAO,CAAE,YAAY,CACrB,aAAa,CAAE,IAAI,CACnB,YAAY,CAAE,IAAI",
+"sources": ["../../../app/elements/profile-badge-list/profile-badge-list.scss"],
+"names": [],
+"file": "profile-badge-list.css"
+}
