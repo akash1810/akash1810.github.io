@@ -1,1 +1,1 @@
-!function(a){"use strict";var b=a.querySelector("#app");b.appName="Where its @akash1810",b.page="home",b.profileUrl="/profile.json"}(wrap(document));
+!function(a){"use strict";var b=a.querySelector("#app");b.atIdentity="akash1810",b.profileUrl="/profile.json",a.title+=b.atIdentity}(wrap(document));
