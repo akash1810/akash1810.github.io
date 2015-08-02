@@ -1,43 +1,38 @@
 # SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://akash1810.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  title: Just some thoughts from Akash
+  avatar:
+  gravatar: 152d42cee9adc95cb38482b151c9862e
+  description: "Just some thoughts from Akash (akash1810)"
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text:
   header_text_feature_image:
-  footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
-
+  footer_text:
   # Icons
   rss: false
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
-  bitbucket:
+  bitbucket: "akash1810"
   dribbble:
-  facebook:
+  facebook: "akash1810"
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "akash1810"
   google_plus:
-  instagram:
+  instagram: "akash1810"
   linkedin:  # Full URL
   pinterest:
   reddit:
-  soundcloud:
+  soundcloud: "akash1810"
   stack_exchange:  # Full URL
   steam:
-  tumblr:
-  twitter: "twitter"
+  tumblr: "akash1810"
+  twitter: "akash1810"
   wordpress:
   youtube:
 
@@ -52,7 +47,7 @@ theme:
   str_email: "Email"
   str_next: "Next"
   str_prev: "Prev"
-  str_continue_reading: "Continue reading"
+  str_continue_reading: "click to read more"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"

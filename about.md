@@ -2,11 +2,13 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hi, I'm Akash. I'm a Full Stack Software Developer currently working at [The Guardian](http://gu.com).
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+This is a place for random thoughts, posts and other stuff that I've not yet categorised. I might move over the backlog of posts I've made on Tumblr other places... depends how lazy I'm feeling.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+
+All thoughts are my own.
+
+This site was made using Jekyll and the [Type Theme](https://github.com/rohanchandra/type-theme).
