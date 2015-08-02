@@ -1,1 +1,0 @@
-!function(a){"use strict";var b=a.querySelector("#app");b.atIdentity="akash1810",b.profileUrl="/profile.json",a.title+=b.atIdentity}(wrap(document));
