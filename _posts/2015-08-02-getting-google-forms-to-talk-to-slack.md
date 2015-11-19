@@ -45,3 +45,6 @@ All this does is replace `mailto` with `https://mail.google.com/mail/u/0/?view=c
 Grab the full code below.
 
 {% gist 640a45d5997de1d95f4a %}
+
+#Screencast
+[![screencast](http://img.youtube.com/vi/bBkXdagMGaw/0.jpg)](http://www.youtube.com/watch?v=bBkXdagMGaw)
